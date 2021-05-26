@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cumpleanios-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cumpleanios/CumpleaniosWebPart.js",
+          "manifest": "./src/webparts/cumpleanios/CumpleaniosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CumpleaniosWebPartStrings": "lib/webparts/cumpleanios/loc/{locale}.js"
+  }
+}

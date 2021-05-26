@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "clasificados-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/clasificados/ClasificadosWebPart.js",
+          "manifest": "./src/webparts/clasificados/ClasificadosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ClasificadosWebPartStrings": "lib/webparts/clasificados/loc/{locale}.js"
+  }
+}

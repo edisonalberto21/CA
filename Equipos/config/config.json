@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "equipos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/equipos/EquiposWebPart.js",
+          "manifest": "./src/webparts/equipos/EquiposWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EquiposWebPartStrings": "lib/webparts/equipos/loc/{locale}.js"
+  }
+}

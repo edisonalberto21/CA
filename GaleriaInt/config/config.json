@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "galeria-int-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/galeriaInt/GaleriaIntWebPart.js",
+          "manifest": "./src/webparts/galeriaInt/GaleriaIntWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GaleriaIntWebPartStrings": "lib/webparts/galeriaInt/loc/{locale}.js"
+  }
+}

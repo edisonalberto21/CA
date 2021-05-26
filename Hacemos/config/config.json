@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hacemos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hacemos/HacemosWebPart.js",
+          "manifest": "./src/webparts/hacemos/HacemosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HacemosWebPartStrings": "lib/webparts/hacemos/loc/{locale}.js"
+  }
+}
